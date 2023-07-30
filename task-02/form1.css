@@ -1,0 +1,51 @@
+/* CSS styles for the form and enrollment list */
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #12e635;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #0b0303;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: #381cc8;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#enrollmentList {
+  margin-top: 20px;
+}
+
+#enrollmentList table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+#enrollmentList th,
+#enrollmentList td {
+  border: 1px solid #a4e00d;
+  padding: 8px;
+  text-align: left;
+}
+
+#enrollmentList th {
+  background-color: #d2d4f3;
+}

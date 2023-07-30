@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Student Course Enrollment Form</title>
+  <link rel="stylesheet" type="text/css" href="form1.css">
+</head>
+<body bgcolor="#E1E9E9">
+  <div class="container">
+    <h2>Student Course Enrollment Form</h2>
+    <form id="enrollmentForm">
+      <label for="name">Name:</label>
+      <input type="text" id="name" required>
+      <label for="website">Website:</label>
+      <input type="text" id="website"required>
+      <label for="course">Course:</label>
+      <select id="course" required>
+        <option value="">Select Course</option>
+        <option value="Artificial Intelligence">Artificial Intelligence</option>
+        <option value="Computer Science">Computer Science</option>
+        <option value="Mathematics">Mathematics</option>
+        <option value="Datascience">Datascience</option>
+        <option value="Blockchain">Blockchain</option>
+        <option value="Web Developer">Web Developer</option>
+        <option value="Devops">Devops</option>
+      </select>
+
+      <button type="submit">Enroll Student</button>
+    </form>
+
+    <div id="enrollmentList">
+      <h3>Enrolled Students:</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Course</th>
+            <th>Website</th>
+          </tr>
+        </thead>
+        <tbody id="enrolledStudents"></tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="form2.js"></script>
+</body>
+</html>
